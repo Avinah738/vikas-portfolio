@@ -1,0 +1,13 @@
+.edu{
+    grid-template-columns: 2fr 1fr;
+}
+.edu__title{ font-weight: 800; margin-bottom: 10px; }
+.edu__list li{ margin-bottom: 12px; }
+.edu__row{ display:flex; justify-content: space-between; font-weight: 700; }
+.edu__level{ }
+.edu__period{ color: var(--text-muted); }
+.edu__school{ color: var(--text-muted); }
+.edu__lang{
+    display:flex; align-items:center; justify-content: space-between;
+}
+@media (max-width: 900px){ .edu{ grid-template-columns: 1fr; } }

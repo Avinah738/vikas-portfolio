@@ -1,0 +1,10 @@
+.metrics{
+    display:grid; grid-template-columns: repeat(3, 1fr);
+    gap:18px;
+}
+.metric{ text-align:center; }
+.metric__value{ font-size: 28px; font-weight: 800; color:#111; }
+.metric__label{ color: var(--text-muted); font-weight: 600; }
+@media (max-width: 800px){
+    .metrics{ grid-template-columns: 1fr; }
+}
